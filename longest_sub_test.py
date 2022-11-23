@@ -11,3 +11,5 @@ def test_case_one():
 
 def test_case_two():
     assert longestSubstring("pwwkew") == 3
+def test_case_None():
+    assert longestSubstring(None) == 0
